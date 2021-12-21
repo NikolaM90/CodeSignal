@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSignal", "CodeSignal\CodeSignal.csproj", "{BA9757EA-831F-4DA4-A2CE-A550387EDAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9757EA-831F-4DA4-A2CE-A550387EDAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9757EA-831F-4DA4-A2CE-A550387EDAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9757EA-831F-4DA4-A2CE-A550387EDAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9757EA-831F-4DA4-A2CE-A550387EDAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {946F4986-5CAD-4A9C-8863-1D8A61A9FB87}
+	EndGlobalSection
+EndGlobal
