@@ -18,13 +18,30 @@
 //Console.WriteLine(solution(test));
 
 
-int solution(int n)
+//int solution(int n)
+//{
+//    int r = 0;
+//    for (int i = 1; i < n; i++)
+//    {
+//        r += (2 * i - 1) * 2;
+//    }
+//    return r + (2 * n - 1);
+
+//}
+
+int solution(int[] statues)
 {
-    int r = 0;
-    for (int i = 1; i < n; i++)
+    Array.Sort(statues);
+    int counter = 0;
+    for (int i = 0; i < statues.Length - 1; i++)
     {
-        r += (2 * i - 1) * 2;
+        if (statues[i] - statues[i + 1] != -1)
+        {
+            for (int j = statues[i]; j - statues[i + 1] < -1; j++)
+            { counter++; }
+
+        }
     }
-    return r + (2 * n - 1);
+    return counter;
 
 }
